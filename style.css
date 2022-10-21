@@ -42,10 +42,11 @@ img {
   margin-left: 13rem;
 }
 .header-btn button {
-  padding: 15px 10px 15px 10px;
+  padding: 15px 30px 15px 30px;
   border-radius: 15px;
   color: black;
   background-color: white;
+  border-color: #fff;
 }
 
 /* seaction1 */
@@ -130,4 +131,76 @@ img {
 .sec3-para p {
   font-size: 1.3rem;
   color: #fff;
+}
+
+/* section 4 */
+
+.crd-pro1,
+.crd-pro2 {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  margin-left: 40%;
+  margin-right: 40%;
+  width: 12rem;
+  height: 12rem;
+}
+
+.crd-pro-pic {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* section 5 */
+
+.seaction5 {
+  background-color: #fac769;
+  padding-top: 15px;
+}
+
+.sec5-p5 {
+  color: white;
+  margin-left: 15rem;
+}
+
+.sec5-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.sec5-h5 {
+  padding-bottom: 20px;
+  color: #fff;
+  margin-left: 15rem;
+  font-family: "Arimo", sans-serif;
+  font-size: 40px;
+}
+
+.sec5-btn button {
+  padding: 15px 30px 15px 30px;
+  border-radius: 20px;
+  color: black;
+  background-color: white;
+  margin-left: 10rem;
+  border-color: #fff;
+}
+
+/* seaction 6 */
+
+.seaction6 {
+  margin-top: 5rem;
+}
+
+.sec6-head {
+  text-align: center;
+  font-family: "Barlow", sans-serif;
+  font-size: 25px;
+}
+
+/*
+@media screen and (min-width: 450px) {
 }
