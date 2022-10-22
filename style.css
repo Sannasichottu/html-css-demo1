@@ -201,6 +201,158 @@ img {
   font-size: 25px;
 }
 
-/*
-@media screen and (min-width: 450px) {
+/* mobile-view */
+
+@media only screen and (max-width: 768px) and (min-width: 450px) {
+  .header {
+    display: flex;
+    width: 100%;
+    height: auto;
+    z-index: 100;
+  }
+
+  .bg-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .header h4 {
+    font-family: "Barlow", sans-serif;
+    width: auto;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .header h1 {
+    width: auto;
+    font-family: "Arimo", sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .img {
+    width: 100%;
+    height: auto;
+  }
+
+  .crd-pro1,
+  .crd-pro2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+  }
+
+  .header-btn {
+    width: auto;
+    height: 50%;
+  }
+
+  .sec1-p1 {
+    font-size: auto;
+  }
+
+  .seaction2 {
+    background-color: #fac769;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: auto;
+  }
+
+  .sec2-h2 {
+    width: auto;
+    font-family: "Arimo", sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .sec2-p1 {
+    padding-top: 40px;
+    font-size: 25px;
+    margin-left: 8rem;
+  }
+  .seaction3 {
+    display: flex;
+    width: 80%;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sec3-card1,
+  .sec3-card2,
+  .sec3-card3 {
+    display: flex;
+    width: 80%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+  }
+
+  .seaction4 {
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-wrap: wrap;
+    align-items: baseline;
+    padding-bottom: 30%;
+  }
+
+  .crd-pro1 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    padding-top: 15%;
+  }
+
+  .crd-pro2 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    padding-top: 50%;
+  }
+
+  .crd-pro-pic {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40%;
+  }
+
+  .seaction5 {
+    background-color: #fac769;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: auto;
+  }
+
+  .sec5-flex {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+  }
+
+  .sec5-h5 {
+    width: auto;
+    font-family: "Arimo", sans-serif;
+  }
+
+  .sec5-btn button {
+    width: auto;
+    height: 50%;
+  }
+
+  .sec6-head {
+    width: auto;
+  }
 }
